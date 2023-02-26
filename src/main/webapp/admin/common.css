@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap');
+
+/* 마진 패딩 초기화 */
+* { padding: 0; margin: 0; font-family: 'Noto Sans KR', sans-serif;  }
+
+/* 페이지 기본 글꼴과 크기 설정 */
+body { font-family: 'Noto Sans KR', sans-serif;   font-size: 14px; }
+img { border: 0; }
+ul { list-style-type: none; }
+h2 {  padding-top: 30px; margin-bottom: 10px;font-family: 'Noto Sans KR', sans-serif;}
+
+/* <a> 태그 기본 설정 */
+a { display: inline-block; text-decoration: none; }
+a:link { text-decoration:none; color: #222222; }
+a:hover { text-decoration:none; color: #222222; }
+a:visited { text-decoration:none; color: #222222; }
+a:active { text-decoration:none; color: #222222; }
+
+/* 상단 헤더 */
+#top {  width:100%; height: 80px; margin: 0 auto; color: white; background-color: #232323;text-align:center;}
+#top h3 a{color:white; }
+#top h3 { position: absolute; top: 25px; font-size: 25px; margin:5px 0px 0px 30px; color: white; }
+#top #topmenu { float: right; margin: 30px 60px 0 0;}
+#top #topmenu li { display: inline; color:white;}
+#top #topmenu li a { color:white;}
+#menubar { width: 100%; margin: 0 auto; height: 48px; background-color: #232323; font-size: 16px; font-family: 'Do Hyeon', sans-serif;}
+#menubar ul { width: 1000px; margin: 0 auto; padding: 14px 0 0 40px; }
+#menubar li { display: inline; margin-left: 100px; color: white; }
+#menubar a:link { color: white; }
+#menubar a:hover { color: white; }
+#menubar a:visited { color: white; }
+#menubar a:active { color: white; }
+
+section { width:1100px; height:900px; padding:10px; margin: 0 auto;}
+
+footer{
+	width:100%;
+	display:flex;
+	background:#1f1f1f;
+	padding:30px;
+	font-size:0.75rem;
+}
+footer > .footA{
+	width:1200px;
+	text-align:center;
+	margin: auto;
+	color:white;
+	line-height:20px;
+}
+

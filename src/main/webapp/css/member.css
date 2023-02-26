@@ -1,0 +1,55 @@
+/* 메인 콘텐트 */
+#main_content { position: relative; width: 1000px; height: 450px; 
+margin: 0 auto; margin-top:160px; }
+
+/* 가입 양식 폼 */
+#join_box {	width: 600px;	margin: 0 auto;  }
+#join_box h2 { padding-top: 50px; font-family: 'Noto Sans KR', sans-serif;}
+#join_box .col1 { float: left;	width: 110px; margin-top: 4px; }
+#join_box .col2 { float: left;	width: 400px; }
+#join_box .col3 { float: left; }
+#join_box .form input { width: 390px;	height: 22px; }
+#join_box .form { height: 38px; }
+#join_box .id {	margin-top: 20px; }
+#join_box input[name=email1] { width: 100px; }
+#join_box input[name=email2] { width: 275px; }
+#join_box .bottom_line { margin-top: 10px;	border-bottom: solid 1px #cccccc; }
+#join_box .buttons { text-align: right;	margin: 20px 100px 0 0; }
+.btn {  background-color: #000040; /* Green */
+    color: white;
+    padding: 9px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;}
+.btn:hover{
+	opacity:0.8;
+}
+.txt{
+	width:1000px;
+	margin:auto;
+	text-align:left;
+	margin-bottom:20px;
+	margin-top:200px;
+}
+.txt > h1{
+	font-size:1.8rem;
+}
+input[type=text]{
+	padding:3.5px;
+	margin-bottom:10px;
+	border: 1px solid #ccc;
+	font-size:1rem;
+}
+input[type=password]{
+	padding:3.5px;
+	margin-bottom:10px;
+	border: 1px solid #ccc;
+	font-size:1rem;
+}
+.buttons{
+	width:500px;
+	text-align:right;
+}
